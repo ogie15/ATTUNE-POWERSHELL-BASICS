@@ -3,7 +3,7 @@
 #Region Function One 
 #==============================================================================
 # Declaring FunctionOne
-function FunctionOne{
+function FunctionOne {
     # This writes a welcome message from ATTUNE 
     # This is a print to screen CMDLET [Write-Host].
     Write-Host "Welcome to Attune by ServerTribe"
@@ -25,14 +25,14 @@ $UserName = ($env:USERNAME).Split('.')
 $ServerName = ($env:computername).Split('.')
 
 # Declaring FunctionTwo
-function FunctionTwo{
+function FunctionTwo {
     # This is a parameter section that has declared named parameters and they are assigned default values of the Variables ($UserName & $ServerName)
     param (
         # First named parameter assigned a variable $UserName
         $FirstVariable = $UserName,
 
         # Second named parameter assigned a variable $ServerName
-        $SecondVariable =  $ServerName
+        $SecondVariable = $ServerName
     )
     # This writes out the values in the Variables ($FirstVariable & $SecondVariable) to screen.
     # This is a print to screen CMDLET [Write-Host].
@@ -47,6 +47,7 @@ FunctionTwo
 
 #EndRegion Function Two
 #==============================================================================
+#EndRegion Function
 
 
 #==============================================================================
@@ -67,11 +68,10 @@ FunctionTwo
 # Parameter Section [param ($parameter 1, $parameter2)] - This is where any number of named parameters are inputed (this is optional).
 # The Statement List (<statement list> "{}") - This is where all PowerShell commands are been written for the function to execute.
 # ============================================
-# The Example in the Blueprint has two funtions (one a basic function and the second a basic function with named parameters).
-# The Fist Function (FunctionOne) has two commands that writes out a welcome message and timestamp of the Server Attune is running on.
+# The Example in the Blueprint has two functions (one a basic function and the second a basic function with named parameters).
+# The Fist Function (FunctionOne) has two commands that write out a welcome message and timestamp of the Server Attune is running on.
 # When the FunctionOne is called it runs all the commands in the Script Block "{}" (statement list).
-# The Second Funtion (FunctionTwo) has named parameters that are assigned default values of the Variables ($FirstVariable & $SecondVariable) which are defined in the script.
-# When the Function (FunctionTwo) is called it also runs all the commands in the Sript Block "{}".
+# The Second Function (FunctionTwo) has named parameters that are assigned default values of the Variables ($FirstVariable & $SecondVariable) which are defined in the script.
+# When the Function (FunctionTwo) is called it also runs all the commands in the Script Block "{}".
 # ============================================
 #==============================================================================
-#EndRegion Function
