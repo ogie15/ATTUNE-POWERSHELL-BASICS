@@ -9,6 +9,8 @@ $i = 0
 while($i -lt $array.Count)
 {
     # This echos out the present value of the string in the array when the condition is satisfied.
+    # `n - it creates a new line after the messgaes writes to screen
+    # This is a print to screen CMDLET [Write-Host].
     Write-Host $array[$i] `n
 
     # Suspends the activity in the script for 1 second
@@ -25,6 +27,8 @@ while($i -lt $array.Count)
 # Comment 
 #==============================================================================
 # Below shows the basic Else statement syntax:
+# ============================================
+# while (<condition>){<statement list>}
 # ============================================
 
 # ============================================
