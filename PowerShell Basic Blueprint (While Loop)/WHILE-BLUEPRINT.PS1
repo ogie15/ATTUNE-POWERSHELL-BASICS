@@ -1,13 +1,12 @@
 #Region While Loop
 #==============================================================================
 # The variable array ($array) is declared and holds an Array of strings.
-$array = @("A","T","T","U","N","E")
+$array = @("A", "T", "T", "U", "N", "E")
 
 # Creates a variable "i" and assigns a numeric value of 0 to it.
 $i = 0
 
-while($i -lt $array.Count)
-{
+while ($i -lt $array.Count) {
     # This echos out the present value of the string in the array when the condition is satisfied.
     # `n - it creates a new line after the message.
     # This is a print to screen CMDLET [Write-Host].

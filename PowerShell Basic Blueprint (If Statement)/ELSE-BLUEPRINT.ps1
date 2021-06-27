@@ -7,16 +7,19 @@ $A = 3
 if ($A -gt 3) {
     # If the condition is satisfied it will print the text in front of the CMDLET (Write-Host) to the screen.
 
-    # This is a print to screen CMDLET.
+    # This is a print to screen CMDLET [Write-Host].
     Write-Host "The value $A is greater than 3."
 }
 # This is an else statement that runs if no condition is satisfied.
 else {
     # If the condition is not satisfied it will print the text in front of the CMDLET (Write-Host) to the screen.
 
-    # This is a print to screen CMDLET.
+    # This is a print to screen CMDLET [Write-Host].
     Write-Host ("The value $A is less than or equal to 3 or" + " is not created or is not initialized.")
 }
+#==============================================================================
+#EndRegion Else
+
 
 #==============================================================================
 # Comment 
@@ -38,4 +41,3 @@ else {
 # By adding an Else statement, a message is displayed [Output:(The value 3 is less than or equal to 3 or is not created or is not initialized.)] when the Variable A ($A) is less than or equal to 3 or the condition in the IF block is not satisfied.
 # ============================================
 #==============================================================================
-#EndRegion Else

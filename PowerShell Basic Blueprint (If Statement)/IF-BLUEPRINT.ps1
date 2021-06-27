@@ -7,9 +7,11 @@ $A = 5
 if ($A -gt 3) {
     # If the condition is satisfied it will print the text in front of the CMDLET (Write-Host) to the screen.
 
-    # This is a print to screen CMDLET.
+    # This is a print to screen CMDLET [Write-Host].
     Write-Host "The value $A is greater than 3."
 }
+#==============================================================================
+#EndRegion IF
 
 #==============================================================================
 # Comment 
@@ -28,4 +30,3 @@ if ($A -gt 3) {
 # It checks if the condition [the value of the Variable A ($A) is greater than 3] is satisfied and echos out the text [Output:(The value 5 is greater than 3.)] written in front of the CMDLET "Write-Host".
 # ============================================
 #==============================================================================
-#EndRegion IF
