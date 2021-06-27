@@ -1,19 +1,18 @@
-#Echos the text infront of the CMDLET
+# Writes the text in front of the CMDLET
 Write-Host "Below is the list of ExecutionPolicy on your PC/Server"
 
-#Pause the script for 3 Seconds
+# Pause the script for 3 Seconds
 Start-Sleep -s 3
 
-#Get the ExecutionPolicy on the Server
+# Get the ExecutionPolicy on the Server
 Get-ExecutionPolicy -List
 
-#Echos the text infront of the CMDLET
+# Writes the text in front of the CMDLET
 Write-Host "Complete"
 
 
-
 #==============================================================================
-# Comment 
+# Comment -- FOR STEP
 #==============================================================================
-This gets the Execution-Policy of the Target Machine
+# This gets the execution policies for each scope in the order of precedence of the Target Machine
 #==============================================================================
