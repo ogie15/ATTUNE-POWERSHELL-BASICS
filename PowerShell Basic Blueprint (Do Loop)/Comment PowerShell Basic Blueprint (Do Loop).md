@@ -1,9 +1,11 @@
-PowerShell Do Loop on Attune
+## **PowerShell Do Loop on Attune**
 
-This is a Blueprint on Attune of how to run a Do-While or Do-Until Loop in PowerShell.
 
-The Do keyword works with the While or the Until keyword to execute the statements in a script block, subject to the specified condition.
 
-Unlike the While loop, the script block in a Do loop always runs at least once.
+#### *This is a Blueprint on Attune of how to run a Do-While or Do-Until Loop in PowerShell.*
 
-In the Do-While loop and Do-Until loop, the condition is evaluated after the script block has run.
+###### The Do keyword works with the While or the Until keyword to execute the statements in a script block, subject to the specified condition. 
+
+###### Unlike the While loop, the script block in a Do loop always runs at least once.
+
+###### In the Do-While loop and Do-Until loop, the condition is evaluated after the script block has run.
