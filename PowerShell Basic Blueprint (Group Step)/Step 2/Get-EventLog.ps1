@@ -9,11 +9,3 @@ Get-EventLog -LogName * -After (Get-Date).AddDays(-1) | Format-List
 
 # Writes the text in front of the CMDLET
 Write-Host "Completed"
-
-
-
-#==============================================================================
-# Comment -- FOR STEP
-#==============================================================================
-# This gets the EventLog on the Target Machine
-#==============================================================================

@@ -9,10 +9,3 @@ Get-ComputerInfo
 
 # Writes the text in front of the CMDLET
 Write-Output "Complete"
-
-
-#==============================================================================
-# Comment -- FOR STEP
-#==============================================================================
-# This gets the all system and operating system properties of the Target Machine and echos it.
-#==============================================================================

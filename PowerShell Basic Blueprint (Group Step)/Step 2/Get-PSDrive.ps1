@@ -9,10 +9,3 @@ Get-PSDrive | Format-Table
 
 # Writes the text in front of the CMDLET
 Write-Host "Completed"
-
-
-#==============================================================================
-# Comment -- FOR STEP
-#==============================================================================
-# This gets the list of Drives on the Target Machine
-#==============================================================================
