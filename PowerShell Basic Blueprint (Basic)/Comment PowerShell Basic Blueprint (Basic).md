@@ -1,7 +1,7 @@
 # POWERSHELL BASIC BLLUEPRINT
 #### *This is a Blueprint of Basic PowerShell commands on Attune*
 ---
-[![SERVERTRIBE|51x39](https://www.servertribe.com/wp-content/themes/mars/assets/images/attune_logo.svg)](https://www.servertribe.com/)
+[![SERVERTRIBE](https://www.servertribe.com/wp-content/themes/mars/assets/images/attune_logo.svg)](https://www.servertribe.com/)
 ***&copy;2021 Powered by ServerTribe***
 
 <!-- https://www.markdownguide.org/extended-syntax/#heading-ids -->
