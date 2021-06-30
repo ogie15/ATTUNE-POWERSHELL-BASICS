@@ -1,5 +1,4 @@
 # **POWERSHELL VARIABLES ON ATTUNE**
----
 #### ***This is a Blueprint on Attune on how variables and data type work in PowerShell***
 ---
 > ###### - *Variables in PowerShell can store all types of values. For example, it can store the results of commands, expressions like names, paths and values.*

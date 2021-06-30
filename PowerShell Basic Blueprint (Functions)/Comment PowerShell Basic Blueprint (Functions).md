@@ -1,5 +1,4 @@
 # **POWERSHELL FUNCTIONS ON ATTUNE**
----
 #### ***This is a Blueprint on Attune of how to work with Functions in PowerShell***
 ---
 > ###### - *A Function is a list or a group of PowerShell statements that has a name assigned to it.*
