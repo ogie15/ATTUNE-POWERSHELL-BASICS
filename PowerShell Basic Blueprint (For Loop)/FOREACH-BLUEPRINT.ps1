@@ -17,4 +17,5 @@ foreach ($item in $array) {
 # This is a print to screen CMDLET [Write-Host]. -- It writes out the number of letters contained in the array.
 Write-Host ($array) "has" $array.Count "letters"
 #==============================================================================
-#EndRegion ForEach Loop 
+#EndRegion ForEach Loop
+
