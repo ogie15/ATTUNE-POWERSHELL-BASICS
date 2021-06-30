@@ -1,5 +1,5 @@
 ### **Below shows the basic For statement Syntax:**
-```
+```powershell
 for (<Init>; <Condition>; <Repeat>)
 {
     <Statement list>
@@ -13,14 +13,14 @@ for (<Init>; <Condition>; <Repeat>)
 > ##### If the condition set is True, the commands in the command block runs, and the condition is evaluated again.
 > ##### If still True, the commands in the Statement list run again. This is repeated until the condition becomes False.
 >
-> ##### The Repeat placeholder represents one or more commands [separated by commas], that is executed each time the loop repeats.
-> ##### It is mostly used to modify a variable (mostly [Init]) that is tested inside the condition placeholder.
+> ##### The Repeat placeholder represents one or more commands *[separated by commas]*, that is executed each time the loop repeats.
+> ##### It is mostly used to modify a variable (mostly *[Init]*) that is tested inside the condition placeholder.
 >
 > ##### The Statement list placeholder represents one or more commands that are run each time the loop is entered or repeated.
 > ##### The commands in the Statement list are surrounded by braces.
 ---
-> ##### In the script above, the For loop runs the commands *([Write-Host], [Start-Sleep])* in the statement List while the condition *[value of $i is less than sum of the strings in the array ($array.Count)]* is satisfied.
-> ##### Then it goes to the last line of the script and runs the CMDLET [Write-Host].
+> ##### In the script above, the For loop runs the commands *([Write-Host], [Start-Sleep])* in the statement List while the condition *[value of \$i is less than sum of the strings in the array ($array.Count)]* is satisfied.
+> ##### Then it goes to the last line of the script and runs the CMDLET *[Write-Host]*.
 ---
 #### **Below holds in the script above:**
 ---

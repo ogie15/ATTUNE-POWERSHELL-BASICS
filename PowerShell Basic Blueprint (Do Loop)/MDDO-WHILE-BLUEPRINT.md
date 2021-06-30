@@ -1,5 +1,5 @@
 ### **Below shows the basic Else statement syntax:**
-```
+```powershell
 do {<statement list>} while (<condition>)
 ```
 ---
