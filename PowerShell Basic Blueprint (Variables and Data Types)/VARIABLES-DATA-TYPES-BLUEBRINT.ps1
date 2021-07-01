@@ -13,6 +13,9 @@ $FirstNumber = 1
 # This is a print to screen CMDLET [Write-Host].
 Write-Host "FirstNumber has a value of" $FirstNumber "and Data Type of" (($FirstNumber).GetType()).Name `n
 
+# Pause the script for 1 Seconds
+Start-Sleep -s 1
+
 # This Variable "SecondNumber" is of datatype System.Int32 ("data type = Int32")
 New-Variable -Name "SecondNumber" -Value 2               
 
@@ -28,12 +31,18 @@ Write-Host "SecondNumber has a value of" $SecondNumber "and Data Type of" (($Sec
 # This Variable "FirstString" is of datatype System.String ("data type = String")
 $FirstString = "ATTUNE"
 
+# Pause the script for 1 Seconds
+Start-Sleep -s 1
+
 # `n - it creates a new line after the message.
 # This is a print to screen CMDLET [Write-Host].
 Write-Host "FirstString has a value of" $FirstString "and Data Type of" (($FirstString).GetType()).Name `n
 
 # This Variable "SecondString" is of datatype System.String ("data type = String")
 New-Variable -Name "SecondString" -Value "SERVERTRIBE"
+
+# Pause the script for 1 Seconds
+Start-Sleep -s 1
 
 # `n - it creates a new line after the message.
 # This is a print to screen CMDLET [Write-Host].
@@ -47,12 +56,18 @@ Write-Host "SecondString has a value of" $SecondString "and Data Type of" (($Sec
 # This Variable "FirstArray" is of datatype System.Array ("data type = Array")
 $FirstArray = @(3, "POWERSHELL")
 
+# Pause the script for 1 Seconds
+Start-Sleep -s 1
+
 # `n - it creates a new line after the message.
 # This is a print to screen CMDLET [Write-Host].
 Write-Host "FirstArray has a values of" $FirstArray[0]"," $FirstArray[1] "and Data Type of" ((($FirstArray).GetType() | Select-Object BaseType).BaseType).Name `n
 
 # This Variable "SecondArray" is of datatype System.Array ("data type = Array")
 New-Variable -Name "SecondArray" -Value @(4, "BASH")
+
+# Pause the script for 1 Seconds
+Start-Sleep -s 1
 
 # `n - it creates a new line after the message.
 # This is a print to screen CMDLET [Write-Host].
@@ -69,15 +84,21 @@ $FirstHashTable = @{ ID = 4; Name = "WINDOWS" }
 # Gets the Datatype and assigns it to the Variable $DataTypeHastableOne
 $DataTypeHastableOne = (($FirstHashTable).GetType()).Name
 
+# Pause the script for 1 Seconds
+Start-Sleep -s 1
+
 # `n - it creates a new line after the message.
 # This is a print to screen CMDLET [Write-Host].
-Write-Output "FirstHashTable has values below and Data Type of $DataTypeHastableOne" $FirstHashTable `n
+Write-Output "FirstHashTable has above below and Data Type of $DataTypeHastableOne" $FirstHashTable `n
 
 # This Variable "SecondHashTable" is of datatype System.Object ("data type = Object or HashTable")
 New-Variable -Name "SecondHashTable" -Value @{ ID = 05; Name = "LINUX" }
 
 # Gets the Datatype and assigns it to the Variable $DataTypeHastableTwo
 $DataTypeHastableTwo = (($SecondHashTable).GetType()).Name
+
+# Pause the script for 1 Seconds
+Start-Sleep -s 1
 
 # `n - it creates a new line after the message.
 # This is a print to screen CMDLET [Write-Host].
