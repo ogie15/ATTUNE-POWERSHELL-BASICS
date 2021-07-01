@@ -18,4 +18,3 @@ foreach ($item in $array) {
 Write-Host ($array) "has" $array.Count "letters"
 #==============================================================================
 #EndRegion ForEach Loop
-
