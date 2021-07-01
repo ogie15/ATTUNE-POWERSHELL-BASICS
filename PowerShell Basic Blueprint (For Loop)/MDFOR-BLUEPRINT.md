@@ -1,4 +1,4 @@
-### **Below shows the basic For statement Syntax:**
+### **Below shows the basic For statement syntax:**
 ```powershell
 for (<Init>; <Condition>; <Repeat>)
 {
@@ -12,7 +12,7 @@ for (<Init>; <Condition>; <Repeat>)
 >
 > The Condition placeholder represents the portion that evaluates the condition each time the For loop runs.
 > 
-> If the condition set is True, the commands in the command block runs, and the condition is evaluated again.
+> If the condition set is True, the commands in the command block run, and the condition is evaluated again.
 > 
 > If still True, the commands in the Statement list run again. This is repeated until the condition becomes False.
 >
@@ -30,7 +30,7 @@ for (<Init>; <Condition>; <Repeat>)
 ---
 #### **Below holds in the script above:**
 ---
-```
+```powershell
 Init - is set to 0.
 
 Condition - is set to check if the current value of $i is less than the sum of the strings in the array ($array.Count).
@@ -40,7 +40,7 @@ Repeat part - is set to increment the present value of $i by 1 (i++).
 The for loop statement can also be written as represented in an alternative syntax using the carriage returns instead of semicolons to delimit the Init, Condition, and Repeat portions.
 ```
 #### Example below:
-```
+```powershell
 for (<Init>; <Condition>; <Repeat>)
 {
     <Statement List>

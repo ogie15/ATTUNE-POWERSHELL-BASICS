@@ -14,7 +14,7 @@ if (<test condition 1>)
 > 
 > This is the simplest form of the IF Statement.
 > 
-> It checks if the condition *[the value of the Variable A ($A) is greater than 3]* is satisfied and echos out the text *[Output:(The value 5 is greater than 3.)]* written in front of the CMDLET *"Write-Host"*.
+> It checks if the condition *[the value of the Variable A ($A) is greater than 3]* is satisfied and echos out the text *[Output: (The value 5 is greater than 3.)]* written in front of the CMDLET *"Write-Host"*.
 ---
 [![SERVERTRIBE](https://www.servertribe.com/wp-content/themes/mars/assets/images/attune_logo.svg)](https://www.servertribe.com/)
 ***&copy;2021 Powered by ServerTribe***

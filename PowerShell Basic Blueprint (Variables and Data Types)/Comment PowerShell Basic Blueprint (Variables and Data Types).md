@@ -9,6 +9,7 @@
 > 
 > - *User-created variables: These are variables that are created and maintained by the user.*
 > - *Automatic variables: These are variables that are created by PowerShell. Their values change as required to maintain their accuracy. Users can't change the value of these variables. For example, the _\$PSHOME and $HOST_ variables.*
+> - *Preference variables: These variables store user preferences for PowerShell. They are created by PowerShell and are populated with default values _(we won't dive into this)_.*
 > 
 > *Variables created in the PowerShell command line exist only in the current PowerShell session, when the session is closed all variables are deleted.*
 ---
