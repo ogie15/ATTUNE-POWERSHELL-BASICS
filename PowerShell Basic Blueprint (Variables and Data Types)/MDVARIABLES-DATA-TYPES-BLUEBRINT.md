@@ -3,8 +3,8 @@
 First by using the $ in front of an alphabet:
 
 Example: 
-- \$a 
-- \$b
+- $a 
+- $b
 
 Variables are not case-sensitive in PowerShell, meaning $a is the same as $A
 
@@ -17,7 +17,7 @@ $a = "Attune"
 $a will overwrite \$A because it was declared after $A
 
 
-Another way of declaring Variables is Using the *CMDLET [New-Variable]*, a base syntax is below:
+Another way of declaring Variables is Using the CMDLET [New-Variable], a base syntax is below:
 
 ```powershell
 

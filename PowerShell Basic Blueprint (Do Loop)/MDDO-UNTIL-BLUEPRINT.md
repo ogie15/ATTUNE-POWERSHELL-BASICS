@@ -1,4 +1,5 @@
-# Below shows the basic Else statement syntax:
+# Below shows the basic Do Until statement syntax:
+
 ```powershell
 
 do {<statement list>} until (<condition>)

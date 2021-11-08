@@ -1,4 +1,4 @@
-# Below shows the basic IF Else statement syntax:
+# Below shows the basic Else statement syntax:
 
 ```powershell
 
